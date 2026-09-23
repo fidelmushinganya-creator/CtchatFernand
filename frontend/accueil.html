@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Accueil — FernandAkasinga</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ecran">
+    <div class="barre-haut-accueil">
+      <span class="marque-mini">FernandAkasinga <span class="coeur">❤️</span></span>
+    </div>
+
+    <div class="entete-accueil">
+      <div class="avatar-accueil" id="avatar-accueil">•</div>
+      <p class="date-jour" id="date-jour"></p>
+      <h1 class="bonjour" id="texte-bonjour">Bonjour</h1>
+    </div>
+
+    <div class="liste-accueil">
+      <div class="carte-tuiles">
+        <a href="/messagerie" class="tuile">
+          <div class="icone">💬</div>
+          <div class="texte">
+            <div class="titre-tuile">Messagerie</div>
+            <div class="sous-tuile">Votre conversation privée</div>
+          </div>
+          <div class="badge masque" id="badge-messages">0</div>
+          <span class="chevron">›</span>
+        </a>
+
+        <button type="button" class="tuile" id="ouvrir-notifications">
+          <div class="icone">🔔</div>
+          <div class="texte">
+            <div class="titre-tuile">Notifications</div>
+            <div class="sous-tuile" id="texte-notifications">Aucun nouveau message</div>
+          </div>
+          <span class="chevron">›</span>
+        </button>
+
+        <a href="/profil" class="tuile">
+          <div class="icone">👤</div>
+          <div class="texte">
+            <div class="titre-tuile">Profil</div>
+            <div class="sous-tuile" id="texte-profil">Votre compte</div>
+          </div>
+          <span class="chevron">›</span>
+        </a>
+
+        <a href="/parametres" class="tuile">
+          <div class="icone">⚙️</div>
+          <div class="texte">
+            <div class="titre-tuile">Paramètres</div>
+            <div class="sous-tuile">Préférences de l'application</div>
+          </div>
+          <span class="chevron">›</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="pied-accueil">
+      <button type="button" class="lien-discret" id="bouton-deconnexion">Se déconnecter</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

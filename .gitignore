@@ -1,0 +1,6 @@
+*.db
+images/
+vocaux/
+__pycache__/
+*.pyc
+.env

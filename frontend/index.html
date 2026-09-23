@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FernandAkasinga</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="page-centree">
+    <div class="carte-connexion">
+      <div class="marque">FernandAkasinga <span class="coeur">❤️</span></div>
+      <p class="sous-titre">Messagerie privée</p>
+
+      <form id="formulaire-connexion" autocomplete="off">
+        <div class="champ">
+          <label for="identifiant">Identifiant</label>
+          <input type="text" id="identifiant" name="identifiant" autocapitalize="none" autocomplete="username" required>
+        </div>
+        <div class="champ">
+          <label for="mot-de-passe">Mot de passe</label>
+          <input type="password" id="mot-de-passe" name="mot-de-passe" autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="bouton-principal" id="bouton-connexion">Se connecter</button>
+        <p class="message-erreur" id="erreur-connexion"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

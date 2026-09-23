@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Messagerie — FernandAkasinga</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ecran">
+    <div class="barre-haut">
+      <a href="/accueil" class="retour">‹</a>
+      <div class="titre-barre" id="titre-conversation">Conversation</div>
+    </div>
+
+    <div class="fil-messages" id="fil-messages">
+      <p class="etat-vide" id="etat-vide-messages">Aucun message pour l'instant. Écrivez le premier ❤️</p>
+    </div>
+
+    <div class="barre-saisie">
+      <label class="bouton-icone" id="bouton-image">
+        📷
+        <input type="file" id="entree-image" accept="image/jpeg,image/png,image/gif,image/webp" class="masque">
+      </label>
+      <button type="button" class="bouton-icone" id="bouton-vocal">🎤</button>
+      <textarea class="champ-saisie" id="entree-texte" rows="1" placeholder="Écrire un message..."></textarea>
+      <button type="button" class="bouton-envoi" id="bouton-envoi" disabled>➤</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
